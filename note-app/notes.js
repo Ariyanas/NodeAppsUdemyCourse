@@ -2,11 +2,26 @@ var addNote = (title,description) => {
 
 }
 
-var getList() = () => {
+var getList = () => {
+
+}
+
+var getNote = (title) =>{
+
+}
+
+var removeNote = (title) => {
+
+}
+
+var editNote = (title) => {
 
 }
 
 module.exports = {
   addNote,
-  getList
+  getList,
+  getNote,
+  removeNote,
+  editNote
 }
